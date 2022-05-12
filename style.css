@@ -1,40 +1,90 @@
-body {
-    background-color: lightblue;
-    margin: 0;
-    padding-top: 800px;
+body{
     text-align: center;
+    background: linear-gradient( #4287f5 0%,#4bf542 100%);
 }
-#img1 {
-border-radius: 50%;
+
+img{
+  width:100;
+  height:100;
+    border-radius: 50%;
+    
 }
-#primeiro  {
-    z-index: 9;
-    position: absolute;
-    bottom: 0;
-    background:linear-gradient(#00ffb3 0%,#0095ff 100% );
-    display: table;
-    width: 100%;
-    height: 100%;
+#myname{
+   font-family: 'Courgette', cursive;
 }
-.menu {
-   position: fixed; 
-   top: 10px;
-   right: 30px;
-   z-index: 10;
+#FavoriteFood{
+     padding:40px;
+    text-align:center;
+}
+h1{
+  
+  font-size:18px;
+}
+p{
+  font-size:18px;
+  color:#6A1B9A;
+    
+}
+h2{
+  font-size:20px;
+  color:#003487;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+
+.menu{
    list-style: none;
-   cursor: pointer;
-   background-color: white;
+    font-family:cursive;
+   float:right;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color:black;
 }
-.lista {
-    float: left;
-    padding-left:5px ;
-    font-family: 'Tapestry', cursive;
+.menu a{
+    color:black !important;
 }
-.lista:hover {
-    font-size: 20px;
-    text-decoration:underline;
+
+
+.link{
+    color:crimson;
+    display: inline;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom: 5px;
 }
-#Ecrito a{
-    color: green !important;
-    text-decoration: green  !important;
+   .link:hover{
+    background-color:beige;
+}
+
+
+
+#picture{
+    width:auto;
+    height:300px;
+   border-radius:0%;
+    
+    margin:20px;
+}
+.food
+{
+  background: #373B44;  /* substituto para navegadores antigos */
+
+ background: linear-gradient( #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-top:20px;
+}
+
+img {
+transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    /* Forneça a propriedade transform: scale para 0.9 */
+    transform: scale( );
 }
